@@ -1,5 +1,5 @@
 # script-add-vouchers-shopee
-Shopee 11-11-2023. List voucher khác ở bên dưới
+Shopee 11-11-2023. List vouchers khác ở bên dưới
 ```javascript
 //edit aVoucers
 
@@ -52,6 +52,12 @@ this.addVoucher(oPayload);
  
 });
 //thanks https://www.linkedin.com/in/tinhtrinh/
+```
+voucher 0h, lần lượt: toàn sàn, toàn sàn Mall, tiêu dùng, điện tử, đời sống, thời trang, quốc tế
+```javascript
+const aVourchers = [
+"1111EBV50K", "1111EBV15K","1111EBV100KFM","1111EBV1000KEL","1111EBV25KLS","1111EBV50KFA","1111EBV50KCB"
+];
 ```
 
 voucher_shop_1:
