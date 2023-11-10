@@ -53,6 +53,12 @@ this.addVoucher(oPayload);
 });
 //thanks https://www.linkedin.com/in/tinhtrinh/
 ```
+voucher toàn sàn, lọc sp, lọc user:
+```javascript
+const aVourchers = [
+    "1111GIAM1000K2", "1111GIAM1000K1", "1111DEM1000K1", "1111DEM1000K2", "1111GIAM3000K1", "1111GIAM3000K2", "1111DEM3000K1", "1111DEM3000K2", "1111ELHA2000K2 ", "1111ELHA1000K2", "ACEHANOV", "ACENOV11", "1111EBV1000KEL", "ELSSDA15", "ELACE", "ELMG8", "ELGAMECP1111", "ELGAME1111", "ELMG3T", "ELHACE8", "ELSS6B1", "ELSSDA1110", "ELACE12", "ELACE2511", "ELACE1511", "ELACE1111", "ELGAME11", "ELHP15", "ELHP12", "SSCE6B", "SSCE6B", "1111ELHA1000K1" 
+]; 
+```
 voucher 0h, lần lượt: toàn sàn, toàn sàn Mall, tiêu dùng, điện tử, đời sống, thời trang, quốc tế
 ```javascript
 const aVourchers = [
