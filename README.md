@@ -1,4 +1,4 @@
-# script-add-voucer-shopee
+# script-add-vouchers-shopee
 Shopee 11-11-2023. List voucher khác ở bên dưới
 ```javascript
 //edit aVoucers
