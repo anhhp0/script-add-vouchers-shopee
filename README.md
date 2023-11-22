@@ -1,5 +1,4 @@
 # script-add-vouchers-shopee
-## Shopee 11-11-2023. List vouchers khác ở bên dưới
 ### script_v2:
 ```javascript
 async function addVoucher(voucherCode) {
