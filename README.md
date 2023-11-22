@@ -28,7 +28,7 @@ async function addVoucher(voucherCode) {
         console.error(`Lỗi khi gọi API: ${error}`);
     }
 }
-//Thank https://www.facebook.com/profile.php?id=100006946324397
+
 async function runAddVouchers() {
     let voucherInput = prompt("Vui lòng nhập các mã voucher, cách nhau bằng dấu phẩy (,):");
     if (voucherInput) {
