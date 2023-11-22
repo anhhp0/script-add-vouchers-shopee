@@ -16,9 +16,9 @@ async function addVoucher(voucherCode) {
         });
         const responseData = await response.json();
         if (responseData.error) {
-            console.error(`Lỗi khi thêm Voucher ${voucherCode}: ${responseData.error_msg}`);
+            console.error(`Thêm Voucher lỗi: ${voucherCode}: ${responseData.error_msg}`);
         } else {
-            console.log(`Thêm Voucher thành công: ${voucherCode}`);
+            console.log(`Đã thêm Voucher: ${voucherCode}`);
         }
     } catch (error) {
         console.error(`Lỗi khi gọi API: ${error}`);
