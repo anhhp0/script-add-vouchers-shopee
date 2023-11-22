@@ -32,8 +32,8 @@ async function runAddVouchers() {
         for (const voucher of vouchers) {
             await addVoucher(voucher);
 
-            // Tạo một khoảng thời gian chờ ngẫu nhiên từ 1 đến 2 giây
-            const delay = Math.floor(Math.random() * 888) + 888; // 1000 đến 1999 ms
+            // Tạo một khoảng thời gian chờ ngẫu nhiên từ 888ms
+            const delay = Math.floor(Math.random() * 888) + 888; // delay time
             await new Promise(resolve => setTimeout(resolve, delay));
         }
         console.log("Thêm vouchers hoàn tất.");
